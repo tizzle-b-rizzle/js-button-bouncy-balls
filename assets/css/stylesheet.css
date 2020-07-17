@@ -1,0 +1,49 @@
+/*#region reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*#endregion*/
+
+  #bouncy-ball {
+      width:200px;
+      height:200px;
+      background-color: red;
+      margin-left: 40%;
+      border:2px solid black;
+      border-radius: 50%;
+      animation-name: bounce;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      /*animation-timing-function: linear;*/
+      margin-top:400px;
+  }
+
+  @keyframes bounce { /*fix animation then do https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_class for the button */
+      0% {
+         
+      }
+      25% {
+        margin-top: 0px;
+      }
+      50% {
+        margin-top: 400px;
+        width:240px;
+        height:160px;
+      }
+      75% {
+          margin-top: 0px;
+          width:200px;
+          height:200px;
+      }
+      100% {
+          margin-top: 400px;
+          width:240px;
+          height:160px;
+      }
+    
+    
+
+}
+  
