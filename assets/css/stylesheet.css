@@ -14,10 +14,9 @@
       border:2px solid black;
       border-radius: 50%;
       animation-name: bounce;
-      animation-duration: 0s;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
-      margin-top:400px;
+      margin-top:350px;
   }
 
   #button {
@@ -28,12 +27,12 @@
 
   @keyframes bounce { 
       0% {
-        margin-top: 400px;
+        margin-top: 350px;
         width:230px;
         height:170px;
       }
       25% {
-        margin-top: 400px;
+        margin-top: 350px;
       }
       50% {
         margin-top: 0px;
@@ -41,13 +40,13 @@
         height:200px;
       }
       75% {
-        margin-top: 400px;
+        margin-top: 350px;
         width:200px;
         height:200px;
     }
 
     100% {
-      margin-top: 400px;
+      margin-top: 350px;
       width:230px;
       height:170px;
     }
