@@ -1,58 +1,54 @@
+  
 /*#region reset*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  /*#endregion*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*#endregion*/
 
-#ball-container {
-  height:600px;
-  width:600px;
-  background-color: green;
-  margin-left: 400px;
+/*#region body*/
+#body {
+  background-color: #ebd28d;
+}
+/*#endregion*/
+
+/*#region title section*/
+#title-section {
+  background-color: aqua;
+  width:100%;
+  height:auto;
+  padding-top:5vh;
+  padding-bottom:5vh;
+  text-align:center;
+}
+#title {
+  font-family:Helvetica, sans-serif;
+  font-size:50px;
+}
+/*#endregion*/
+
+/*#region button*/
+#button-section {
+  height:20vh;
+  background-color: #ebd28d;
 }
 
-  #bouncy-ball {
-      width:200px;
-      height:200px;
-      position:relative;
-      background-color: red;
-      margin-left: 40%;
-      border:2px solid black;
-      border-radius: 50%;
-      animation-name: bounce;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-      top:400px;
-  }
+#randomizer-button {
+  background-color: green;
+  min-width:10vw;
+  min-height:100%;
+  margin-left: 40vw;
+  font-size: 16px;
+  border:2px solid red;
+}
+/*#endregion*/
 
-  #button {
-    height:60px;
-    width:90px;
-    background-color: blue;
-  }
-
-  @keyframes bounce { 
-      0% {
-        top: 400px;
-      }
-      25% {
-        top:0;
-      }
-      50% {
-        top: 400px;
-      }
-      75% {
-        top:0;}
-
-    100% {
-      top: 400px;
-    }
-      }
-  .bouncy-ball-on-off {
-    animation-duration: 2.5s;
-    background-color: blue;
-  }
-     
-  
+#a {
+  height:200px;
+  width:200px;
+}
+#b {
+  height:200px;
+  width:200px;
+}
