@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="assets/css/stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> <!-- use   font-family: 'Indie Flower', cursive;-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Poems</title>
+    <title>Bouncy Ball Button</title>
 </head>
-<body id="body">
-    <div id="title-section">
-        <h1 id="title">Too Jazzy Poems</h1>
-    </div>
-    <div id="button-section">
-        <button id="randomizer-button">Click here to bring up a random poem!</button>
-    </div>
+<body>
+    <button id="button" onclick="bouncyBall()">Click here to make the ball bounce!</button>
+    <div id="ball-container">
+        <div id="bouncy-ball"></div>
+    </div>  
 </body>
-<script type="text/javascript" src="assets/js/script.js"></script>
+<script>
+    function bouncyBall() {
+     var element = document.getElementById("bouncy-ball");
+     element.classList.toggle("bouncy-ball-on-off");
+  } 
+</script>
 </html>
+<!--fix animation then do https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_class for the button -->
